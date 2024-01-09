@@ -12,13 +12,6 @@
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
-# Package related files that can be ignored or are better kept user-specific
-ProjectSettings/Packages/com.unity.probuilder/Settings.json
-ProjectSettings/Packages/com.unity.polybrush/Settings.json
-/ProjectSettings/Packages/com.unity.progrids/Settings.json
-/ProjectSettings/Packages/com.unity.learn.iet-framework/Settings.json
-Assets/Polybrush Data*
-Assets/PolybrushData*
 
 # Visual Studio cache directory
 .vs/
