@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
        // rb.velocity =  new Vector2(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
-        if (Input.GetKey(jumpButton) && isGround())
+        if (Input.GetKey(jumpButton) )
         {
             Jump();
         }

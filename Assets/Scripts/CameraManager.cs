@@ -6,15 +6,13 @@ public class CameraManager : MonoBehaviour
 {
     [SerializeField] public Transform target;
     [SerializeField] public float cameraSpeed;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] Camera camera;
 
     // Update is called once per frame
     void Update()
     {
         transform.position = Vector3.Slerp(transform.position, new Vector3(target.position.x, target.position.y , transform.position.z), cameraSpeed);
     }
+ 
+
 }
